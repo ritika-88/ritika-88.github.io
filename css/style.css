@@ -7,12 +7,12 @@ body {
 }
 
 header, footer {
-  background-color: #ffa500;
+  background-color:#6e0228;
   text-align: left;
 }
 
 header {
-  font-family: Work Sans;
+  font-family: 'Quattrocento', serif;
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -30,7 +30,7 @@ main {
 }
 
 h1 {
-  font-family: Poppins;
+  font-family: 'Quattrocento', serif;
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
@@ -38,13 +38,13 @@ h1 {
 }
 
 h2 {
-  font-family: Poppins;
-  font-size: 18px;
+  font-family: 'Quattrocento', serif;
+  font-size: 24px;
   /*height: auto;*/
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #80013c;
   padding: 10px 0px 10px 10px;
 }
 
@@ -62,8 +62,8 @@ img {
 
 .bio {
   color: #ffffff;
-  font-size: 24px;
-  font-family: 'Work Sans';
+  font-size: 30px;
+  font-family: 'Quattrocento', serif;
 }
 
 /* Added a button and a box for that button. The "flex" makes it easier to center the button. If you don't want the button centered, you could remove it */
@@ -78,14 +78,14 @@ img {
   border: 1px solid #ffffff;
   cursor: pointer;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 26px;
   padding: 16px 31px;
   text-decoration: none;
   margin: 1.69em auto;
 }
 
 .myButton:hover {
-	background-color:#e69708;
+	background-color:#24010d;
 }
 
 .myButton:active {
@@ -99,7 +99,7 @@ img {
 }
 
 .a {
-
+  color: #660128;
 }
 
 .c {
@@ -109,14 +109,14 @@ img {
 .time {
   padding-left: 10px;
   padding-top: 10px;
-  width: 20px;
+  width: 18px;
   height: auto;
 }
 
 .mins {
   display: inline-block;
-  font-family: Poppins;
-  font-size: 14px;
+  font-family: 'Quattrocento', serif;
+  font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.3px;
   text-align: left;
@@ -126,8 +126,8 @@ img {
 }
 
 .description {
-  font-family: Work Sans;
-  font-size: 14px;
+  font-family: 'Quattrocento', serif;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
